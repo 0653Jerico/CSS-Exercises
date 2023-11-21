@@ -1,0 +1,24 @@
+.box1{
+    background: linear-gradient(
+        to right,
+        skyblue 0,
+        skyblue 40%,
+        purple 40%,
+        purple 100% 
+    );
+}
+
+.box2{
+    background-color: red;
+}
+
+.box3{
+    background-color: black;
+}
+
+.box{
+    width: 50%;
+    height: 50vw;
+    margin: 20px auto;
+    padding: 10px;
+}
