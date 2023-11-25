@@ -72,10 +72,11 @@
 }
 
 header{
-    width: 100%;
+    max-width: 100%;
+    width: 100rem;
     height: 3vw;
     background: linear-gradient(
-        to right,
+        to left,
         purple,
         white
     );
@@ -84,7 +85,8 @@ header{
 }
 
 nav{
-    width: 700px;
+    max-width: 100%;
+    width: 500px;
     height: 3vw;
     display: flex;
     justify-content: space-evenly;
